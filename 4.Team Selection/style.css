@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+.team{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(220, 227, 244);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    
+    
+}
+.team h2{
+    font-size: 2rem;
+    font-weight: 400px;
+    background-color: #c5c2c2;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.team h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+.team button {
+    padding: 15px 30px;
+    background-color: #2b6a8f;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.team button:active {
+    scale: 0.9;
+}
